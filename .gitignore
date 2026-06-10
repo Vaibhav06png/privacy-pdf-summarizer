@@ -1,7 +1,21 @@
-.env
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Project specific
 mappings/pii_mapping.json
 output_summary.txt
-data/HealthCare_Reports 1.pdf
+data/healthcare.pdf
