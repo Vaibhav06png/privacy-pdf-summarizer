@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+*.pyc
+mappings/pii_mapping.json
+output_summary.txt
+data/HealthCare_Reports 1.pdf
